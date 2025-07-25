@@ -37,7 +37,7 @@ This repository contains my solutions to various LeetCode problems that I’ve s
 ## 📬 Let's Connect
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/guduru-venkata-koushik-4371b325a/)
-- 🐙 [GitHub](https://github.com/your-username)
+- 🐙 [GitHub](https://github.com/koushikGuduru)
 
 ---
 
