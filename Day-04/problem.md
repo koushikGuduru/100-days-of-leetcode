@@ -1,0 +1,35 @@
+# Day 4: Median of Two Sorted Arrays
+
+**Difficulty:** Hard  
+**Topics:** Array, Binary Search, Divide and Conquer
+
+---
+
+## Problem
+
+Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
+
+You must solve the problem in `O(log(m+n))` time complexity.
+
+---
+
+### Examples:
+
+**Example 1:**
+Input: nums1 = [1,3], nums2 = [2]  
+Output: 2.00000  
+Explanation: Merged array = [1,2,3], median = 2
+
+**Example 2:**
+Input: nums1 = [1,2], nums2 = [3,4]  
+Output: 2.50000  
+Explanation: Merged array = [1,2,3,4], median = (2+3)/2 = 2.5
+
+---
+
+### Constraints:
+- nums1.length == m  
+- nums2.length == n  
+- 0 <= m, n <= 1000  
+- 1 <= m + n <= 2000  
+- -10⁶ <= nums1[i], nums2[i] <= 10⁶
