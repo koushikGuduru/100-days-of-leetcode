@@ -1,15 +1,22 @@
-## Day 5: Longest Palindromic Substring
+## Day 5: Longest Palindromic Substring ✅
 
 ### Problem Statement:
-Given a string `s`, return the **longest palindromic substring** in `s`.
+Given a string `s`, return the longest palindromic substring in `s`.
+
+---
 
 ### Examples:
-Input: s = "babad"  
-Output: "bab"  
-(Note: "aba" is also valid)
 
-Input: s = "cbbd"  
-Output: "bb"
+**Input:**  
+s = "babad"  
+**Output:** "bab"  
+(Note: "aba" is also a valid answer.)
+
+**Input:**  
+s = "cbbd"  
+**Output:** "bb"
+
+---
 
 ### Constraints:
 - 1 <= s.length <= 1000  

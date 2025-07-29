@@ -1,19 +1,20 @@
-## Approach:
+## Notes: Longest Palindromic Substring
 
-We solve this by expanding around possible centers.
+### ✅ Approach:
+We expand around each character (center) to check for the longest palindromic substring.  
+There are two types of centers:
+- Odd-length palindromes: one center (i)
+- Even-length palindromes: two centers (i, i+1)
 
-- Each character and each pair of adjacent characters is treated as a possible center.
-- For each center, expand as far as the characters match on both sides.
-- Keep track of the longest expansion found.
+### ✅ Steps:
+1. Initialize `start` and `end` pointers.
+2. For each character, expand outward while characters on both sides are equal.
+3. Track the maximum length and update `start` and `end`.
 
-### Why Expand Around Center?
-- It avoids checking every substring.
-- Efficient: O(n^2) time, O(1) space.
+### ✅ Time Complexity:
+- O(n^2) — we check each possible center and expand.
+- O(1) space — we don't use extra space apart from pointers.
 
-### Edge Cases:
-- Empty string: return ""
-- Entire string is a palindrome
-
-### Complexity:
-- Time: O(n^2)
-- Space: O(1)
+### 🧠 Tips:
+- Palindromes mirror around a center.
+- Use helper function `expandAroundCenter` for clean logic.
