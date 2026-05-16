@@ -24,4 +24,5 @@ class Solution(object):
                         r -= 1
                     l += 1
                     r -= 1
+                    #result.append([nums[i], nums[l], nums[r]])
         return res
